@@ -1,0 +1,26 @@
+1、WMS6.0物流仓储管理系统
+
+http://wms.jdl.cn/ 
+
+账号 liuxiaoyun5
+
+密码 bGl1eGlhb3l1bjU=
+
+2、京东物流公司协同管理系统
+
+172.31.137.199
+
+账号 admin
+
+密码 liuxiaoyun5+
+
+3、物流仓储测试服务器
+
+测试服务器：
+
+地址：https://wms-club-ui.test.jdl.cn
+
+账号：ceshi
+
+密码：lxy#123456
+

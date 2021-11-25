@@ -1,0 +1,31 @@
+debug:
+  address: "0.0.0.0:8022"
+  tower : "http://192.168.168.163:8080"
+  app_secret: "vn9rTaDmZa0Bvjmix0"
+  app_id: "deploy-server"
+  switch:
+    multi_region_download: false
+    code_check_required: true
+    internal_internet: true
+    send_rollback_email: true
+    gwkms_authtoken: true
+    pre_group_required: true
+  iaas:
+    addr: "http://ads.pga.iaas.jcloud.com"
+    token: "Token 3cbc248c4e59b142306d18546af45d1aa"
+  confcenter: "127.0.0.1:8055"
+  deploy:
+    server : "http://192.168.168.204:8022"
+    plugin:
+      name:     "deploy"
+      version:  "1.1.0"
+      callback: "http://192.168.168.204:8022/api/v2/deploy/callback"
+erp:
+    verify_passwd: "http://ssa-jd-com-jcloud-admin.proxy.jd.com/sso/verify"
+    verify_ticket: "http://ssa-jd-com-jcloud-admin.proxy.jd.com/sso/ticket/verifyTicket"
+  oss:
+    access_key_id: "5Wk0vUtHS8"
+    access_key_secret: "KHipLdrJZq6Dx7TLdcSCZG8DDzN"
+  process:
+    server: "http://oa.ark.jcloud.com"
+    token: "xJFKefTdYeuic7thPR"
